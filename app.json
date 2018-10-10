@@ -1,0 +1,18 @@
+{
+  "name": "Superset on Heroku",
+  "description": "Data exploration platform designed to be visual, intuitive, and interactive",
+  "logo": "https://cdn.rawgit.com/airbnb/superset/master/superset/assets/images/superset_logo.png",
+  "repository": "https://github.com/RealScout/superset-on-heroku",
+  "addons": [
+    { "plan": "heroku-postgresql" }
+  ],
+  "buildpacks": [
+    { "url": "heroku/python" }
+  ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  }
+}
