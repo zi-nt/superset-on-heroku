@@ -16,7 +16,7 @@ Flask
 Flask-AppBuilder
 Flask-Babel
 Flask-Cache
-Flask-Login=
+Flask-Login
 Flask-Migrate
 Flask-OpenID
 Flask-Script
