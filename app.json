@@ -2,7 +2,7 @@
   "name": "Superset on Heroku",
   "description": "Data exploration platform designed to be visual, intuitive, and interactive",
   "logo": "https://cdn.rawgit.com/airbnb/superset/master/superset/assets/images/superset_logo.png",
-  "repository": "https://github.com/RealScout/superset-on-heroku",
+  "repository": "https://github.com/zintj/superset",
   "addons": [
     { "plan": "heroku-postgresql" }
   ],
