@@ -76,4 +76,6 @@ webencodings==0.5.1
 Werkzeug==0.14.1
 WTForms==2.2.1
 xlrd==1.1.0
-Superset
+superset
+Psycopg2
+pymssql
