@@ -1,16 +1,16 @@
 import os
-#---------------------------------------------------------
+# ---------------------------------------------------------
 # Superset specific config
-#---------------------------------------------------------
+# ---------------------------------------------------------
 # ROW_LIMIT = 5000
-SUPERSET_WORKERS = 8 # for it to work in heroku basic/hobby dynos increase as you like
+SUPERSET_WORKERS = 5  # for it to work in heroku basic/hobby dynos increase as you like
 SUPERSET_WEBSERVER_PORT = os.environ['PORT']
-#---------------------------------------------------------
+# ---------------------------------------------------------
 MAPBOX_API_KEY = os.getenv('MAPBOX_API_KEY')
 
-#---------------------------------------------------------
+# ---------------------------------------------------------
 # Flask App Builder configuration
-#---------------------------------------------------------
+# ---------------------------------------------------------
 # Your App secret key
 SECRET_KEY = os.environ['SECRET_KEY']
 
@@ -29,4 +29,3 @@ ENABLE_PROXY_FIX = True
 SQLLAB_ASYNC_TIME_LIMIT_SEC = 300
 SQLLAB_TIMEOUT = 300
 SUPERSET_WEBSERVER_TIMEOUT = 300
-
