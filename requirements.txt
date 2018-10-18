@@ -90,4 +90,3 @@ WTForms==2.2.1
 xlrd==1.1.0
 Psycopg2
 pymssql
-pyodbc
