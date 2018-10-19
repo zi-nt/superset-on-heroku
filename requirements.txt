@@ -74,7 +74,7 @@ six==1.11.0
 SQLAlchemy==1.2.12
 SQLAlchemy-Utils==0.33.5
 sqlparse==0.2.4
-superset==0.27.0
+superset==0.28.1
 tableschema==1.2.4
 tabulator==1.15.0
 thrift==0.11.0
