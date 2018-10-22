@@ -33,9 +33,9 @@ superset init
 - Check Papertrail logs for debugging any errors.
 
 - If after adding a DB, no tables are populating, try altering this table in the Heroku Postgres DB:
-
+```
 ALTER TABLE table_columns ALTER COLUMN type TYPE VARCHAR(64);
-
+```
 ### How this works
 
 This repository is essentially a minimal web application that specifies [Superset as a dependency](https://superset.incubator.apache.org/installation.html), and makes a deploy button available.
