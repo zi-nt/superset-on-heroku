@@ -1,5 +1,4 @@
 ## One Click Heroku Deploy
-Original: https://github.com/RealScout/superset-on-heroku
 
 Superset is a data exploration platform designed to be visual, intuitive, and interactive. Visit the project's website at <https://superset.incubator.apache.org/>
 
