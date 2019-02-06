@@ -89,4 +89,5 @@ Werkzeug==0.14.1
 WTForms==2.2.1
 xlrd==1.1.0
 Psycopg2==2.7.4
+mysqlclient==1.4.1
 pymssql
